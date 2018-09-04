@@ -9,7 +9,7 @@ public class GameBoard extends JFrame {
 
     static int dimension = 3;
     static int cellSize = 150;
-    private char[][] gameField;
+    public char[][] gameField;
     private GameButton[] gameButtons;
     private Game game;
 
