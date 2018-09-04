@@ -95,11 +95,43 @@ public class GameBoard extends JFrame {
     }
 
     private boolean checkWinLines(char playerSymbol){
+        boolean result = false;
 
+        for (int i = 0; i < dimension; i++){
+            boolean stroka = true;
+            boolean stolb = true;
+
+            for (int j = 0; j < dimension; j++){
+
+                stroka &= (gameField[j][i] == playerSymbol);
+                stolb &= (gameField[i][j] == playerSymbol);
+
+            }
+            if (stroka || stolb){
+                result = true;
+                break;
+            }
+            if (result){
+                break;
+            }
+        }
+        return result;
     }
 
     private boolean checkWinDiagonals(char playerSymbol){
+        boolean osnovDiag = true;
+        boolean pobochDiag = true;
+        boolean result = false;
 
+        for (int i = 0; i < dimension; i++){
+            osnovDiag &= (gameField[i][i] == playerSymbol);
+            pobochDiag &= (gameField[dimension-i-1][i] == playerSymbol);
+        }
+
+        if (osnovDiag || pobochDiag){
+            result = true;
+        }
+        return result;
     }
 
 }
