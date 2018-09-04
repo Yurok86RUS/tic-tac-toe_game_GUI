@@ -94,6 +94,18 @@ public class GameBoard extends JFrame {
         return result;
     }
 
+    boolean isFull(){
+        boolean result = true;
+        for (int i = 0; i < dimension; i++){
+            for (int j = 0; j <dimension; j++){
+                if (gameField[i][j] == nullSymbol)
+                    result = false;
+            }
+        }
+
+        return result;
+    }
+
     private boolean checkWinLines(char playerSymbol){
         boolean result = false;
 
