@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1744816-fa2c-46e4-bb2b-59b66a733b7b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,14 +55,16 @@
       <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+            <state relative-caret-position="606">
+              <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2187#2188#0" expanded="true" />
                 <element signature="e#2214#2215#0" expanded="true" />
                 <element signature="e#2424#2425#0" expanded="true" />
                 <element signature="e#2497#2498#0" expanded="true" />
+                <element signature="e#4159#4160#0" expanded="true" />
+                <element signature="e#4205#4206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +86,8 @@
       <file leaf-file-name="GameActionListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="657">
+              <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +210,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -292,6 +295,8 @@
             <element signature="e#2214#2215#0" expanded="true" />
             <element signature="e#2424#2425#0" expanded="true" />
             <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#4159#4160#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -340,22 +345,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        <state relative-caret-position="606">
+          <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2187#2188#0" expanded="true" />
             <element signature="e#2214#2215#0" expanded="true" />
             <element signature="e#2424#2425#0" expanded="true" />
             <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#4159#4160#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="657">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

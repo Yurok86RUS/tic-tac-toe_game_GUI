@@ -2,6 +2,7 @@ package ru.geekbrains.lesson_7;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 public class GameActionListener implements ActionListener
 {
@@ -25,6 +26,9 @@ public class GameActionListener implements ActionListener
                 board.getGame().showMessage("Fish!");
                 board.emptyField();
             }
+            else {
+                updateByAiData(board);
+            }
         }
         else {
             board.getGame().showMessage("Error turn!");
@@ -37,6 +41,30 @@ public class GameActionListener implements ActionListener
         button.setText(Character.toString(board.getGame().getCurrentPlayer().getPlayerSign()));
         if (board.checkWin()){
             button.getBoard().getGame().showMessage("You win!");
+            board.emptyField();
+        }
+        else {
+            board.getGame().passTurn();
+        }
+    }
+
+    private void updateByAiData(GameBoard board){
+        int x, y;
+        Random rnd = new Random();
+
+        do{
+            x = rnd.nextInt(GameBoard.dimension);
+            y = rnd.nextInt(GameBoard.dimension);
+        }
+        while (!board.isTurnable(x, y));
+
+        board.updateGameField(x, y);
+
+        int cellIndex = GameBoard.dimension * x + y;
+        board.getButton(cellIndex).setText(Character.toString(board.getGame().getCurrentPlayer().getPlayerSign()));
+
+        if (board.checkWin()){
+            button.getBoard().getGame().showMessage("Computer win!");
             board.emptyField();
         }
         else {

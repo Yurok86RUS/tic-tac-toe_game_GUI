@@ -146,4 +146,8 @@ public class GameBoard extends JFrame {
         return result;
     }
 
+
+    public GameButton getButton(int buttonIndex){
+        return gameButtons[buttonIndex];
+    }
 }
