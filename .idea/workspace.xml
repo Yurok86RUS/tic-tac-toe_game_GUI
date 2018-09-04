@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1744816-fa2c-46e4-bb2b-59b66a733b7b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameActionListener.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameActionListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="414">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +110,10 @@
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/MainClass.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GamePlayer.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameButton.java" />
-        <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/Game.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameBoard.java" />
+        <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java" />
       </list>
     </option>
   </component>
@@ -309,16 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -358,6 +348,16 @@
             <element signature="e#2214#2215#0" expanded="true" />
             <element signature="e#2424#2425#0" expanded="true" />
             <element signature="e#2497#2498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson_7/GameActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
